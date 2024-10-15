@@ -56,19 +56,3 @@ page1Content.addEventListener("mouseenter",function(){
 
 cursorEff()
 
-function page2Animation(){
-     gsap.from(".elem h1",{
-        y:120,
-        stagger:0.2,
-        scrollTrigger:{
-            trigger:"#page2",
-            scroller:"#main",
-            start:"top 54%",
-            end:"top 37%",
-            scrub:1
-
-        }
-    })
-    
-}
-page2Animation()
